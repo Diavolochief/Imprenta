@@ -58,6 +58,7 @@ textarea{
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; 
+    z-index: 100;
    
 
 }	
