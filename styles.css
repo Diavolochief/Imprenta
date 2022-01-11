@@ -341,6 +341,7 @@ font-size: min(18px, max(5vw, 13px));
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 .tarjeta {
   width: 200px;
@@ -428,7 +429,10 @@ transform: rotateY(0deg);
 .frontal .contenido span {color: rgba(255, 255, 255, 0.7);}
 /*============================================================tarjeta2*/
 
-* {margin:0; padding:0; box-sizing:border-box;}
+.trjs {margin-left:10px;
+display:inline-flex;
+width: 100%;
+}
 
 
 .tarjetas-dos {
