@@ -207,12 +207,12 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
         }
         
         .atras{
-            left: -0.5%;
-            top: 60%;
+            left: 13%;
+            top: 55%;
         }
         .adelante{
-            right: -0.5%;
-            top: 60%;
+            right: 13%;
+            top: 55%;
         }
         .articulo-img{
             box-shadow: 0 0 0 5px #820ba6ea,
@@ -223,6 +223,19 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
             border-radius: 25% 1%;
            
         }
+        .articulo-img:hover{
+            box-shadow: 0 0 0 5px #820ba6ea,
+                        0 15px 10px;
+            height: 300px;
+            width: 450px;
+            display: inline;
+            border-radius: 0% 0%;
+            -webkit-transition:all 2.5s ease;
+            -o-transition: all 2.5s ease;
+            transition: all 2.5s ease;
+                       
+        }
+
         .articulo{
             display: -webkit-inline;
             padding-left: 12px;
