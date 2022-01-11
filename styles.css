@@ -154,14 +154,15 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
         Slide
         */
         .container{
-            width: 99%;
-            height: 1000px;
+            width: 70%;
+            height: 780px;
         position:static;
         margin: auto;
-            box-decoration-break: ;   
-                       
-                        
-                              
+            box-shadow: 
+                        0 15px 10px blue,
+                        0 15px 15px
+                        ;   
+                        border-radius: 2.5%;             
         }   
 
         .slider{
@@ -226,17 +227,7 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
             display: -webkit-inline;
             padding-left: 12px;
             margin: auto;
-         }
-         .articulo-img:hover{
-            box-shadow: 0 0 0 5px #820ba6ea,
-                        0 15px 10px;
-            height: 350px;
-            width: 450px;
-            display: inline;   
-            -webkit-transition:all 2.5s ease;
-            -o-transition: all 2.5s ease;
-            transition: all 2.5s ease;
-            border-radius: 0% 0%;
+            
  
          }
          .coint
