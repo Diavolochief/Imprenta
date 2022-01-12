@@ -27,7 +27,7 @@ background-color: black;
 }
 
 img{
-    height: 100%;
+    height: auto;
     width: 100%;
 
 }
@@ -155,7 +155,7 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
         */
         .container{
             width: 70%;
-            height: 780px;
+            height: auto;
         position:static;
         margin: auto;
             box-shadow: 
@@ -431,7 +431,7 @@ transform: rotateY(0deg);
 
 .trjs {margin-left:10px;
 display:inline-flex;
-width: 100%;
+width: 99%;
 background-color: #101010;
 }
 
@@ -614,4 +614,4 @@ background-color: #101010;
 	margin: 0 auto;
 	margin-bottom: 1.5rem;
 }
-.frontal-tres .contenido-tres span {color: rgba(255, 255, 255
+.frontal-tres .contenido-tres span {color: rgba(255, 255, 255, 0.7);}
