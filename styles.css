@@ -51,7 +51,8 @@ textarea{
  */
    
  #main-header {
-	background: #a0d2eb;
+	background: #525659;
+    padding: 10px;
 	color: white;
 	height: 80px;
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
@@ -63,11 +64,9 @@ textarea{
 
 }	
 #main-header {
-	background: rgb(5,4,70);
-background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgba(9,9,121,1) 45%, rgba(2,0,36,1) 98%);
+    background-color: #101010;
 	color: white;
-	height: 95px;
-    
+	height: 105px;
 }	
 	#main-header a {
 		color: white;
@@ -79,7 +78,7 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
  */
 #logo-header {
 	float: left;
-	padding: 7px;
+	padding: 10px;
 	text-decoration: none;
     color: rgb(131,58,180);
 }
@@ -154,23 +153,18 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
         Slide
         */
         .container{
-            width: 70%;
+            width: 75%;
             height: auto;
         position:static;
         margin: auto;
-            box-shadow: 
-                        0 15px 10px blue,
-                        0 15px 15px
-                        ;   
-                        border-radius: 2.5%;             
+        
+        /*
+        box-shadow: 0px px .1px 0px  #101010 
+        */
+                       
         }   
 
-        .slider{
-                
-            height: 500%;
-            width: 600px;
-          
-        }
+    
         
         .slider__section{
             width: 100%;
@@ -215,7 +209,7 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
             top: 55%;
         }
         .articulo-img{
-            box-shadow: 0 0 0 5px #820ba6ea,
+            box-shadow: 0 0 0 5px #6c656fe2,
                         0 15px 10px;
             height: 250px;
             width: 350px;
@@ -224,7 +218,7 @@ background: linear-gradient(90deg, rgba(5,4,70,1) 2%, rgba(0,212,255,1) 22%, rgb
            
         }
         .articulo-img:hover{
-            box-shadow: 0 0 0 5px #820ba6ea,
+            box-shadow: 0 0 0 5px #6c656fe2,
                         0 15px 10px;
             height: 300px;
             width: 450px;
@@ -321,10 +315,13 @@ display: flex;
 }
 
 .entrada{
+    
+    font-size: 24px;
     text-align: center;
     font-family: 'Bad Script', cursive;
     color: black;
 }
+
 .contenedorpadre h2  {
     text-align: center;
 
