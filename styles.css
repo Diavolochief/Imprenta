@@ -201,137 +201,7 @@ textarea{
     
         }
 /*==================================================================responsi*/
-        @media screen and (max-width:416px) {
-            #logo-header > img{
-                width: 180px;
-                height: 90px;
-
-            }
-            .trjs {
-                display:block;
-                width: 100%;
-                background-color: #101010;
-                }
-
-            hr{
-                width: 75%;
-                margin: auto;
-                background-color: #101010;
-                height: 3%;
-            }
-            
-.redes{
-    font-size: 12px;
-}
-
-form{
-    display: none;
-}
-  
-
-            .tarjetas{
-                margin: auto;
-                height: 100%;
-            }
-            .contenedorpadre{
-                background-color: #c7c7c7;
-                max-width: 100%;
-                margin: auto;}
-
-            .container{
-                max-width: 100%;
-                width: 100%;
-                height: auto
-                
-            /*
-            box-shadow: 0px px .1px 0px  #101010 
-            */
-                           
-            }   
-            body {
-                width: 100%;
-                margin: auto;
-            }
-            footer{
-                width: 100%;
-                max-width: 100%;
-            }
-
-            
-            nav{
-                display: none;
-            }
-            .botones{
-           
-                width: 35px;
-                height: 35px;
-                background-color: #333;
-                border-radius: 50%;
-                font-size: 20px;
-                font-weight: bold;
-                position: absolute  ;
-                line-height: 40px;
-                text-align: center;
-                -webkit-transition:all .3s ease;
-                -o-transition: all .3s ease;
-                transition: all .3s ease;
         
-            }
-        
-
-            .atras {
-                left: 11%;
-                top: 10%;
-            }
-
-            .adelante {
-                right: 16%;
-                top: 10%;
-        }
-
-
-        .articulo{
-            width: 95%;
-            margin: auto;
-        }
-
-
-        .c+img{
-            box-shadow: 0 0 0 5px #6c656fe2,
-                        0 15px 10px;
-            height: 100px;
-            width: 150px;
-         
-            border-radius: 25% 1%;
-           
-        }
-        .c:hover{
-            box-shadow: 0 0 0 5px #6c656fe2,
-                        0 15px 10px;
-            height: 200px;
-            width: 450px;
-           
-            border-radius: 0% 0%;
-            -webkit-transition:all 2.5s ease;
-            -o-transition: all 2.5s ease;
-            transition: all 2.5s ease;
-                       
-        }
-        .bodyfoot{
-            width: 100%;
-            display: block;
-        }
-        .column1{
-            width: 130px;
-            font-size: 12px;
-        }
-
-        iframe{
-            width:180px;
-            height:100px;
-        }
-        
-    }
         .botones:hover{
             cursor: pointer;
             transform: scale(1.2,1.2);
@@ -750,4 +620,141 @@ background-color: #101010;
 	margin-bottom: 1.5rem;
 }
 .frontal-tres .contenido-tres span {color: rgba(255, 255, 255, 0.7);}
+
+
+@media screen and (max-width:670px) {
+    #logo-header > img{
+        width: 180px;
+        height: 90px;
+
+    }
+    .trjs {
+        display:block;
+        width: 100%;
+        background-color: #101010;
+        }
+
+    hr{
+        width: 75%;
+        margin: auto;
+        background-color: #101010;
+        height: 3%;
+    }
+    
+.redes{
+font-size: 12px;
+}
+
+form{
+display: none;
+}
+
+
+    .tarjetas{
+        margin: auto;
+        height: 100%;
+    }
+    .contenedorpadre{
+        background-color: #c7c7c7;
+        max-width: 100%;
+        margin: auto;}
+
+    .container{
+        max-width: 100%;
+        width: 100%;
+        height: auto
         
+    /*
+    box-shadow: 0px px .1px 0px  #101010 
+    */
+                   
+    }   
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    footer{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    
+    nav{
+        display: none;
+    }
+    .botones{
+   
+        width: 35px;
+        height: 100px;
+        background-color: rgba(51, 51, 51, 0.993);
+        border-radius: 0%;
+        font-size: 20px;
+        font-weight: bold;  
+        position: absolute  ;
+        line-height: 100px;
+        text-align: center;
+        -webkit-transition:all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        opacity: 75%;
+        
+
+    }
+
+
+    .atras {
+        left: 1%;
+        top: 45%;
+    }
+
+    .adelante {
+        right: 1%;
+        top: 45%;
+}
+
+
+.articulo{
+    width: 95%;
+    margin: auto;
+}
+
+
+.c+img{
+    box-shadow: 0 0 0 5px #6c656fe2,
+                0 15px 10px;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 25% 1%;
+    margin-left: 12px;
+   
+}
+.c:hover{
+    box-shadow: 0 0 0 5px #6c656fe2,
+                0 15px 10px;
+    height: 200px;
+    width: 350px;
+   
+    border-radius: 0% 0%;
+    -webkit-transition:all 2.5s ease;
+    -o-transition: all 2.5s ease;
+    transition: all 2.5s ease;
+               
+}
+.bodyfoot{
+    width: 100%;
+    display: block;
+}
+.column1{
+    width: 130px;
+    font-size: 12px;
+}
+
+iframe{
+    width:180px;
+    height:100px;
+}
+
+}
