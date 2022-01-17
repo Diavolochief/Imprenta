@@ -50,7 +50,9 @@ form{
 textarea{
     width: 65%;
 }
-
+.redes{
+    border-radius: 25%;
+}
 
  /*
  Logo
@@ -751,11 +753,16 @@ display: none;
     width: 100%;
     display: block;
 }
-.column1{
-    width: 130px;
+.column1>p{
+    display: flexbox;
+    width: auto;
     font-size: 12px;
+    text-align: center;
 }
-
+.redes{
+    display: flexbox;
+    margin: 0%;
+}
 iframe{
     width:180px;
     height:100px;
