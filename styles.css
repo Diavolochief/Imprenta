@@ -704,12 +704,12 @@ display: none;
 
     .atras {
         left: 1%;
-        top: 45%;
+        top: 40%;
     }
 
     .adelante {
         right: 1%;
-        top: 45%;
+        top: 40%;
 }
 
 
@@ -719,11 +719,12 @@ display: none;
 }
 
 
-.c+img{
+.c{
     box-shadow: 0 0 0 5px #6c656fe2,
                 0 15px 10px;
-    height: 100px;
-    width: 150px;
+                max-width: 100%;    
+    height: 200px;
+    width: 350px;
     display: flex;
     justify-content: center;
 
@@ -732,10 +733,13 @@ display: none;
    
 }
 .c:hover{
+
+   
     box-shadow: 0 0 0 5px #6c656fe2,
                 0 15px 10px;
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 100%;
+    
    
     border-radius: 0% 0%;
     -webkit-transition:all 2.5s ease;
