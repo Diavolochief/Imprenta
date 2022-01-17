@@ -74,7 +74,7 @@ textarea{
 #main-header {
     background-color: #101010;
 	color: white;
-	height: 100px;
+	height: 110px;
 }	
 	#main-header a {
 		color: white;
@@ -319,8 +319,8 @@ display: flex;
 
 
 .site-name{
-    width: 300px;
-    height: 80px;
+    width: 150px;
+    height: 75px;
     
    
 }
